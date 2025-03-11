@@ -129,6 +129,7 @@ class MenuCard extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.only(bottom: 10),
             child: ElevatedButton(
+              style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
               onPressed: () {
                 Navigator.push(
                   context,
